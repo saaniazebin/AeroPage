@@ -1,0 +1,15 @@
+
+#basic-navbar-nav .nav-link{
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+    padding-right: 83px;
+    color: black;
+    
+}
+#basic-navbar-nav .nav-link:hover{
+    color: #EA580C;
+
+}
+
