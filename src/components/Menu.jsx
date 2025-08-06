@@ -1,7 +1,10 @@
 import React from 'react'
 import { Container, Nav, Navbar } from 'react-bootstrap'
 import logo from "../assets/menu.png"
-import endlogo from "../assets/navButton.png"
+import icon from "../assets/icon.png"
+import { FaCloudDownloadAlt } from "react-icons/fa";
+
+
 const Menu = () => {
   return (
     <div>
@@ -20,7 +23,10 @@ const Menu = () => {
          
          
         </Navbar.Collapse>
-        <button style={{border:'none'}}> <img src={endlogo} alt="" /></button>
+        
+        
+
+        <button style={{ padding:'18px 59px 18px 100px',borderRadius:'20px', borderColor:'white', background:'#EA580C',color:'white'}}>  <img style={{paddingRight:'29px'}} src={icon} alt="" />  Download</button>
       </Container>
     </Navbar>
     </div>
